@@ -32,7 +32,10 @@ handles, labels = axes1.get_legend_handles_labels()
 plt.legend(handles, labels,loc='upper right',bbox_to_anchor=(0.5, 0.5,0.3,0.4))
 # bbox_to_anchor=(0.5, 0.5,0.3,0.4))
 # bbox (x, y, width, height)
+# x，y 坐标是图例的左上角坐标
 # width,height 是相对x，y 坐标位子的偏移
+# 参考知乎: matplotlib如何控制legend的位置之二
+# https://zhuanlan.zhihu.com/p/101059179
 
 # 指定y轴文字format
 axes2.yaxis.set_major_formatter(FormatStrFormatter(r'$%.2f$'))
