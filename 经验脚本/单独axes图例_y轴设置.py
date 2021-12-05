@@ -26,8 +26,13 @@ axes4 = figure.add_subplot(2,2,4)
 
 
 handles, labels = axes1.get_legend_handles_labels()
-figure.legend(handles, labels,loc='upper right')
+#figure.legend(handles, labels,loc='upper right')
 #plt.legend(handles, labels,bbox_to_anchor=(0.5, 0., 0.5, 0.0))
+#figure.legend(handles, labels,loc='upper right',bbox_to_anchor=(0.5, 0.5,0.3,0.4))
+plt.legend(handles, labels,loc='upper right',bbox_to_anchor=(0.5, 0.5,0.3,0.4))
+# bbox_to_anchor=(0.5, 0.5,0.3,0.4))
+# bbox (x, y, width, height)
+# width,height 是相对x，y 坐标位子的偏移
 
 # 指定y轴文字format
 axes2.yaxis.set_major_formatter(FormatStrFormatter(r'$%.2f$'))
