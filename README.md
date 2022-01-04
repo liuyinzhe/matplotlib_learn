@@ -22,3 +22,8 @@ https://matplotlib.org/stable/gallery/lines_bars_and_markers/scatter_star_poly.h
 https://matplotlib.org/stable/api/markers_api.html#module-matplotlib.markers
 https://matplotlib.org/stable/tutorials/text/mathtext.html
 ```
+- [ ] path
+```
+https://matplotlib.org/stable/api/path_api.html
+https://matplotlib.org/stable/tutorials/advanced/path_tutorial.html
+```
