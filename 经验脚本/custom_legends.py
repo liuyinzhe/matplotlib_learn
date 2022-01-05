@@ -21,7 +21,7 @@ custom_lines = [Line2D([0], [0], color=cmap(0.), lw=4),
 fig, ax = plt.subplots()
 lines = ax.plot(data)
 ax.legend(custom_lines, ['Cold', 'Medium', 'Hot'])
-
+plt.show()
 '''
 from matplotlib.patches import Patch
 from matplotlib.lines import Line2D
@@ -58,6 +58,3 @@ plt.show()
     #handles, labels = axes[0,0].get_legend_handles_labels()
     #fig.legend(handles, labels, loc='upper center')
 '''
-fig, ax = plt.subplots()
-lines = ax.plot(data)
-ax.legend()
