@@ -42,3 +42,7 @@ for ax in axs.flat:
     im = ax.pcolormesh(arr, **pc_kwargs)
 fig.colorbar(im, ax=axs, shrink=0.6)
 fig.suptitle('Big Suptitle')
+#fig.suptitle('Mutation Count Distribution And Pearson Correlation (QC007)')
+#fig.supylabel('person corr',x=0.02,y=0.5)
+#fig.supylabel('Mutation Count',x=0.96,y=0.5)
+#fig.supxlabel('Read length(1k bin)')
