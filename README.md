@@ -27,3 +27,7 @@ https://matplotlib.org/stable/tutorials/text/mathtext.html
 https://matplotlib.org/stable/api/path_api.html
 https://matplotlib.org/stable/tutorials/advanced/path_tutorial.html
 ```
+- [ ] zorder
+```
+https://matplotlib.org/stable/gallery/misc/zorder_demo.html
+```
