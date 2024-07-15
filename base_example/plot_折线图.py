@@ -29,8 +29,8 @@ plt.switch_backend('agg')  # 适用于linux 命令运行，避免报错
 def main():  
     # 输出频率文件
     prefix=sys.argv[1]
-    var1_df = pd.read_csv(prefix+'.var1.fre',var2im_whitespace=True,header=0)
-    var2_df = pd.read_csv(prefix+'.var2.fre',var2im_whitespace=True,header=0)
+    var1_df = pd.read_csv(prefix+'.var1.fre',header=0)
+    var2_df = pd.read_csv(prefix+'.var2.fre',header=0)
     # setp 3 绘图
     fig,ax = plt.subplots(1,1)  #fig 表示画布， ax 表示单个子图
     #mpl.rcParams["font.sans-serif"]=["FangSong"]
